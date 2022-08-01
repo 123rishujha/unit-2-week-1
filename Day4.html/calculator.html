@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai calculator</title>
+   <style>
+     body > h1{
+        text-align: center;
+        color: teal;
+        font-size: 40px;
+    }
+    body > div{
+        height: 500px;
+        width: 30%;
+        /* border: 1px solid black ; */
+        margin: auto;
+        margin-top: 10px;
+        padding: 40px 0px 40px 0px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    body > div >div{
+        height: 15%;
+        width: 85%;
+        /* border: 1px solid red; */
+        margin: auto;
+        margin-top: 15px;
+        display: flex;
+        border-radius: 8%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    body > div > div ~ div{
+        height: auto;
+        box-shadow: none;
+    }
+    body > div > div ~ div > div{
+        height: 100%;
+        width: 20%;
+        /* border: 1px solid green; */
+        margin: auto;
+        text-align: center;
+        border-radius: 10%;
+        padding-bottom: 5px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    }
+    #black{
+        background-color: black;
+        color: white;
+    }
+    #red{
+        background-color: red;
+        color: wheat;
+    }
+   </style>
+</head>
+<body>
+    <h1>Masai calculator</h1>
+    <!-- making making main outer box -->
+    <div>
+        <!-- 5 boxes inside main box -->
+        <div></div>
+        <div>
+        <!-- making number/character buttons  -->
+            <div><h1>1</h1></div>
+            <div><h1>2</h1></div>
+            <div><h1>3</h1></div>
+            <div id="black"><h1>+</h1></div>
+        </div>
+        <div>
+        <!-- making number/character buttons  -->
+            <div><h1>4</h1></div>
+            <div><h1>5</h1></div>
+            <div><h1>6</h1></div>
+            <div id="black"><h1>-</h1></div>
+        </div>
+        <div>
+        <!-- making number/character buttons  -->
+            <div><h1>7</h1></div>
+            <div><h1>8</h1></div>
+            <div><h1>9</h1></div>
+            <div id="black"><h1>x</h1></div>
+        </div>
+        <div>
+        <!-- making number/character buttons  -->
+            <div id="red"><h1>C</h1></div>
+            <div><h1>0</h1></div>
+            <div><h1>=</h1></div>
+            <div  id="black"><h1>/</h1></div>
+        </div>
+    </div>
+</body>
+</html>
